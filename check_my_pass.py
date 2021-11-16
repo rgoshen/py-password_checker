@@ -32,4 +32,5 @@ def main(args):
             print(f'Good news..."{password}" found 0 times. Good Job!')
     return 'Done!'
 
-main(sys.argv[1:])
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))
